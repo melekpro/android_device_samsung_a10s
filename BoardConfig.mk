@@ -69,6 +69,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # SELinux
 include device/mediatek/sepolicy/sepolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
+TARGET_USING_LEGACY_SELINUX := true
 
 # Symbols
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
